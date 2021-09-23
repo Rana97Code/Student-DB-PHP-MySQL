@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+.user-form {
+    width: 500px;
+    margin: 100px auto;
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid rgb(51, 40, 40);
+    box-shadow: 5px 8px rgb(61, 59, 59);
+}
+
+.user-form input {
+    display: block;
+    border: 1px solid cyan;
+    margin: 15px 0;
+    width: 100%;
+    box-sizing: border-box;
+} 
+
+.user-form input:last-child{
+    background-color: cyan;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
